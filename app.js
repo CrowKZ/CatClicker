@@ -40,11 +40,11 @@ var model ={
 };
 
 function initCats(array) {
-  array.push(    {      code:0,      name:'Cat_1',      img:'1.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
-  array.push(    {      code:1,      name:'Cat_2',      img:'2.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
-  array.push(    {      code:2,      name:'Cat_3',      img:'3.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
-  array.push(    {      code:3,      name:'Cat_4',      img:'4.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
-  array.push(    {      code:4,      name:'Cat_5',      img:'5.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
+  array.push(    {      code:0,      name:'Cat_1',      img:'img/1.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
+  array.push(    {      code:1,      name:'Cat_2',      img:'img/2.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
+  array.push(    {      code:2,      name:'Cat_3',      img:'img/3.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
+  array.push(    {      code:3,      name:'Cat_4',      img:'img/4.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
+  array.push(    {      code:4,      name:'Cat_5',      img:'img/5.jpg',      Counter:0,      addClick : function() {return ++this.Counter; }    }  )
   return array;
 }
 
