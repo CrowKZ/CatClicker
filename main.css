@@ -1,0 +1,61 @@
+div#app{
+  display: inline-flex;
+}
+div.catBlock{
+  width: 250px;
+  text-align: center;
+  margin: 5px;
+  border: solid 1px;
+  border-color: darkgrey;
+  border-radius: 14px;
+  display: inline-grid;
+}
+
+div.catHead{
+  padding: 10px;
+  background-color: darkgrey;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+div.Menu{
+  width: 250px;
+  display: inline-grid;
+  height: 190px;
+  margin: 5px;
+}
+
+span.menuHeader{
+  text-align: center;
+  background-color: darkgrey;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+div.menuBody{
+  display: inherit;
+}
+
+span.MenuItem{
+  background-color: white;
+  padding: 5px;
+}
+
+span.MenuItemSelected{
+  background-color: darkgrey;
+  border-radius: 14px;
+  padding: 5px;
+
+}
+
+img.catImg{
+  margin: 5px;
+  width: 240px;
+}
+
+div.catCounter{
+  padding: 10px;
+  background-color: darkgrey;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
