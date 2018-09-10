@@ -3,6 +3,7 @@ div#app{
 }
 div.catBlock{
   width: 250px;
+
   text-align: center;
   margin: 5px;
   border: solid 1px;
@@ -10,44 +11,32 @@ div.catBlock{
   border-radius: 14px;
   display: inline-grid;
 }
-
 div.catHead{
-  padding: 10px;
+  padding: 10px; 
   background-color: darkgrey;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 }
-
 div.Menu{
   width: 250px;
   display: inline-grid;
   height: 190px;
-  margin: 5px;
 }
-
 span.menuHeader{
   text-align: center;
   background-color: darkgrey;
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
 }
-
-div.menuBody{
-  display: inherit;
-}
-
 span.MenuItem{
   background-color: white;
   padding: 5px;
 }
-
 span.MenuItemSelected{
   background-color: darkgrey;
   border-radius: 14px;
   padding: 5px;
-
 }
-
 img.catImg{
   margin: 5px;
   width: 240px;
@@ -58,4 +47,17 @@ div.catCounter{
   background-color: darkgrey;
   border-bottom-left-radius: 14px;
   border-bottom-right-radius: 14px;
+}
+
+
+span.AdminBtn {
+  border: 2px;
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+}
+.admForm p{
+  width: 20px;
 }
